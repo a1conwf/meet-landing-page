@@ -1,0 +1,52 @@
+@import "./variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    background-color: $white;
+    color: $greyish;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+}
+
+h1,
+h2 {
+    font-weight: 900;
+    color: $darkBlue;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    border-radius: 2.9rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 1.6rem;
+    color: $white;
+    cursor: pointer;
+
+    & span {
+        color: $cyan;
+    }
+}
+
+.sub__heading {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 1.6rem;
+    letter-spacing: 4px;
+    color: $blue;
+    text-transform: uppercase;
+}
